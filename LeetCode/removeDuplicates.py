@@ -23,6 +23,7 @@
 """
 from typing import List
 
+
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         p = 0
@@ -33,6 +34,7 @@ class Solution:
                 p += 1
 
         return len(nums)
+
 
 s = Solution()
 nums = [1, 1, 2, 2, 3, 6, 6, 6, 7]

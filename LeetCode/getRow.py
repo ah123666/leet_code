@@ -11,6 +11,8 @@
 输出: [1,3,3,1]
 """
 from typing import List
+
+
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         if rowIndex == 0:
@@ -27,9 +29,6 @@ class Solution:
             i += 1
         return result
 
+
 s = Solution()
 print(s.getRow(4))
-
-
-
-
